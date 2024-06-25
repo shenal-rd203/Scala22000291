@@ -3,6 +3,6 @@ object Main{
         cel*1.8+32
     }
     def main(args:Array[String]):Unit={
-        println(converter(35))
+        println(converter(34))
     }
 }
