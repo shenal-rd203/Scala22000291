@@ -14,7 +14,7 @@ object question {
     def main(args: Array[String]): Unit = {
 
         // Change price as needed
-        var price = 10.0
+        var price = 15.0
         var atd = calculateAttendees(price)
         printf("Price = %.2f, Attendees = %d\n", price, atd)
         println("Net Profit = " + getNetProfit(price, atd))
