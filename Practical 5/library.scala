@@ -35,17 +35,17 @@ object LibraryManagement{
         println("Initial Library Collection:")
         displayLibrary()
 
-        val newBook = Book("Brave New World", "Aldous Huxley", "978-0060850524")
+        println("\nAdd new book (Brave New World)")
+        val newBook = Book("Brave New World", "Aldous", "0850524")
         addBook(newBook)
-        println("\nAfter Adding a New Book:")
         displayLibrary()
 
-        removeBook("978-0451524935")
-        println("\nAfter Removing a Book by ISBN:")
+        println("\nRemove book")
+        removeBook("9780451")
         displayLibrary()
 
-        println("\nCheck if a Book is in the Library by ISBN (978-0061120084):")
-        println(isBookInLibrary("978-0061120084"))
+        println("\nCheck if a Book is in the Library by ISBN (820084):")
+        println(isBookInLibrary("820084"))
 
         println("\nSearch for a Book by Title ('The Hobbit'):")
         findBookTitle("The Hobbit").foreach(book => println(s"Found: Title: ${book.title}, Author: ${book.author}, ISBN: ${book.isbn}"))
