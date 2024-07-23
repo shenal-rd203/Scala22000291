@@ -4432,3 +4432,1471 @@ WARNING: Unmatched cancel notification for request id 2538
 2024.07.16 07:49:38 INFO  time: compiled Scala22000291_f4dd477a3a in 0.34s
 2024.07.16 07:49:41 INFO  compiling scala22000291_f4dd477a3a (11 scala sources)
 2024.07.16 07:49:41 INFO  time: compiled Scala22000291_f4dd477a3a in 0.32s
+2024.07.16 07:59:05 INFO  compiling scala22000291_f4dd477a3a (11 scala sources)
+2024.07.16 07:59:05 INFO  time: compiled Scala22000291_f4dd477a3a in 0.33s
+2024.07.16 07:59:11 INFO  compiling scala22000291_f4dd477a3a (11 scala sources)
+2024.07.16 07:59:11 INFO  time: compiled Scala22000291_f4dd477a3a in 0.3s
+2024.07.16 07:59:33 ERROR Failed to tokenize input for semantic tokens for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\Practical 5\library.scala
+scala.meta.tokenizers.TokenizeException: <input>:40: error: unclosed string literal
+        println("\nAfter Adding a New 
+                ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:509)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:361)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.16 07:59:34 ERROR Failed to tokenize input for semantic tokens for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\Practical 5\library.scala
+scala.meta.tokenizers.TokenizeException: <input>:40: error: unclosed string literal
+        println("\nAfter Adding 
+                ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:509)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:361)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.16 07:59:33 ERROR Failed to tokenize input for semantic tokens for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\Practical 5\library.scala
+scala.meta.tokenizers.TokenizeException: <input>:40: error: invalid escape character
+        println("\
+                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.invalidEscape(LegacyScanner.scala:690)
+	at scala.meta.internal.tokenizers.LegacyScanner.getLitChar(LegacyScanner.scala:678)
+	at scala.meta.internal.tokenizers.LegacyScanner.getLitChars(LegacyScanner.scala:700)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:504)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:361)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.16 07:59:39 INFO  compiling scala22000291_f4dd477a3a (11 scala sources)
+2024.07.16 07:59:39 INFO  time: compiled Scala22000291_f4dd477a3a in 0.35s
+2024.07.16 07:59:56 INFO  compiling scala22000291_f4dd477a3a (11 scala sources)
+2024.07.16 07:59:56 INFO  time: compiled Scala22000291_f4dd477a3a in 0.31s
+2024.07.16 07:59:57 ERROR Failed to tokenize input for semantic tokens for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\Practical 5\library.scala
+scala.meta.tokenizers.TokenizeException: <input>:43: error: unclosed string literal
+        println("\nAfter Removing a Book by 
+                ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:509)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:361)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.16 07:59:57 ERROR Failed to tokenize input for semantic tokens for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\Practical 5\library.scala
+scala.meta.tokenizers.TokenizeException: <input>:43: error: unclosed string literal
+        println("\nAfter Removing 
+                ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:509)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:361)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.16 07:59:57 ERROR Failed to tokenize input for semantic tokens for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\Practical 5\library.scala
+scala.meta.tokenizers.TokenizeException: <input>:43: error: invalid escape character
+        println("\
+                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.invalidEscape(LegacyScanner.scala:690)
+	at scala.meta.internal.tokenizers.LegacyScanner.getLitChar(LegacyScanner.scala:678)
+	at scala.meta.internal.tokenizers.LegacyScanner.getLitChars(LegacyScanner.scala:700)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:504)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:361)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.16 08:00:02 INFO  compiling scala22000291_f4dd477a3a (11 scala sources)
+2024.07.16 08:00:02 INFO  time: compiled Scala22000291_f4dd477a3a in 0.32s
+Jul 16, 2024 8:00:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3311
+Jul 16, 2024 8:00:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3312
+2024.07.16 08:00:26 INFO  compiling scala22000291_f4dd477a3a (11 scala sources)
+2024.07.16 08:00:26 INFO  time: compiled Scala22000291_f4dd477a3a in 0.3s
+2024.07.16 08:00:33 INFO  compiling scala22000291_f4dd477a3a (11 scala sources)
+2024.07.16 08:00:33 INFO  time: compiled Scala22000291_f4dd477a3a in 0.3s
+Jul 16, 2024 8:00:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3423
+2024.07.16 08:02:44 INFO  compiling scala22000291_f4dd477a3a (11 scala sources)
+2024.07.16 08:02:44 INFO  time: compiled Scala22000291_f4dd477a3a in 0.38s
+Jul 16, 2024 8:02:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3611
+2024.07.16 08:02:55 INFO  compiling scala22000291_f4dd477a3a (11 scala sources)
+2024.07.16 08:02:55 INFO  time: compiled Scala22000291_f4dd477a3a in 0.3s
+2024.07.16 08:03:00 INFO  compiling scala22000291_f4dd477a3a (11 scala sources)
+2024.07.16 08:03:00 INFO  time: compiled Scala22000291_f4dd477a3a in 0.3s
+2024.07.16 08:03:09 INFO  compiling scala22000291_f4dd477a3a (11 scala sources)
+2024.07.16 08:03:09 INFO  time: compiled Scala22000291_f4dd477a3a in 0.29s
+2024.07.16 08:03:20 INFO  compiling scala22000291_f4dd477a3a (11 scala sources)
+2024.07.16 08:03:20 INFO  time: compiled Scala22000291_f4dd477a3a in 0.29s
+2024.07.16 08:03:32 INFO  compiling scala22000291_f4dd477a3a (11 scala sources)
+2024.07.16 08:03:32 INFO  time: compiled Scala22000291_f4dd477a3a in 0.29s
+Jul 16, 2024 8:03:56 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.07.16 08:05:40 INFO  compiling scala22000291_f4dd477a3a (11 scala sources)
+2024.07.16 08:05:40 INFO  time: compiled Scala22000291_f4dd477a3a in 0.45s
+2024.07.16 08:05:44 ERROR Failed to tokenize input for semantic tokens for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\Practical 5\library.scala
+scala.meta.tokenizers.TokenizeException: <input>:43: error: unclosed string literal
+        println("\")
+                ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:509)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:361)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.16 08:05:49 INFO  compiling scala22000291_f4dd477a3a (11 scala sources)
+2024.07.16 08:05:49 INFO  time: compiled Scala22000291_f4dd477a3a in 0.31s
+2024.07.16 08:05:52 INFO  compiling scala22000291_f4dd477a3a (11 scala sources)
+Jul 16, 2024 8:05:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4022
+2024.07.16 08:05:52 INFO  time: compiled Scala22000291_f4dd477a3a in 0.34s
+2024.07.16 08:05:55 INFO  compiling scala22000291_f4dd477a3a (11 scala sources)
+2024.07.16 08:05:55 INFO  time: compiled Scala22000291_f4dd477a3a in 0.32s
+2024.07.16 08:06:06 ERROR Failed to tokenize input for semantic tokens for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\Practical 5\library.scala
+scala.meta.tokenizers.TokenizeException: <input>:38: error: invalid escape character
+        println("\Add new book (Brave New World)")
+                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.invalidEscape(LegacyScanner.scala:690)
+	at scala.meta.internal.tokenizers.LegacyScanner.getLitChar(LegacyScanner.scala:678)
+	at scala.meta.internal.tokenizers.LegacyScanner.getLitChars(LegacyScanner.scala:700)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:504)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:361)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.16 08:06:08 INFO  compiling scala22000291_f4dd477a3a (11 scala sources)
+2024.07.16 08:06:08 INFO  time: compiled Scala22000291_f4dd477a3a in 0.3s
+2024.07.16 08:07:15 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\Practical 5\fibbanochi.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.16 08:07:15 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\Practical 5\fibbanochi.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.16 08:07:15 WARN  Could not find semantic tokens for: file:///C:/Users/LENOVO/UCSC/2nd%20Year/semester%201/2204%20Functional%20Programming/Practicals/gitRepo/Scala22000291/Practical%205/fibbanochi.scala
+2024.07.16 08:07:15 INFO  time: Imported build in 0.11s
+2024.07.16 08:07:15 INFO  running doctor check
+2024.07.16 08:07:15 INFO  java targets: Scala22000291_f4dd477a3a, Scala22000291_f4dd477a3a-test
+2024.07.16 08:07:16 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 08:07:16 INFO  time: compiled Scala22000291_f4dd477a3a in 0.53s
+2024.07.16 08:07:16 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 08:07:17 INFO  time: compiled Scala22000291_f4dd477a3a in 0.4s
+2024.07.16 08:07:18 INFO  time: indexed workspace in 2.91s
+2024.07.16 08:11:24 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 08:11:24 INFO  time: compiled Scala22000291_f4dd477a3a in 0.37s
+2024.07.16 08:11:24 WARN  Could not find semantic tokens for: file:///C:/Users/LENOVO/UCSC/2nd%20Year/semester%201/2204%20Functional%20Programming/Practicals/gitRepo/Scala22000291/Practical%205/fibbanochi.scala
+2024.07.16 08:11:27 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 08:11:27 INFO  time: compiled Scala22000291_f4dd477a3a in 0.4s
+Jul 16, 2024 8:11:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4107
+2024.07.16 08:11:40 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 08:11:40 INFO  time: compiled Scala22000291_f4dd477a3a in 0.4s
+2024.07.16 08:11:43 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 08:11:43 INFO  time: compiled Scala22000291_f4dd477a3a in 0.27s
+2024.07.16 08:11:47 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 08:11:47 INFO  time: compiled Scala22000291_f4dd477a3a in 0.36s
+2024.07.16 08:11:57 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 08:11:57 INFO  time: compiled Scala22000291_f4dd477a3a in 0.31s
+2024.07.16 08:12:01 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 08:12:01 INFO  time: compiled Scala22000291_f4dd477a3a in 0.35s
+2024.07.16 08:12:08 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 08:12:08 INFO  time: compiled Scala22000291_f4dd477a3a in 0.32s
+Jul 16, 2024 8:12:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4265
+2024.07.16 08:12:16 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 08:12:16 INFO  time: compiled Scala22000291_f4dd477a3a in 0.32s
+2024.07.16 08:13:09 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 08:13:09 INFO  time: compiled Scala22000291_f4dd477a3a in 0.41s
+2024.07.16 08:14:29 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 08:14:29 INFO  time: compiled Scala22000291_f4dd477a3a in 0.41s
+2024.07.16 08:14:44 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 08:14:44 INFO  time: compiled Scala22000291_f4dd477a3a in 0.34s
+2024.07.16 08:14:50 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 08:14:50 INFO  time: compiled Scala22000291_f4dd477a3a in 0.32s
+2024.07.16 08:15:49 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 08:15:49 INFO  time: compiled Scala22000291_f4dd477a3a in 0.32s
+2024.07.16 08:16:50 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 08:16:50 INFO  time: compiled Scala22000291_f4dd477a3a in 0.43s
+2024.07.16 08:17:42 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\Practical 5\fibonacci.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.16 08:17:42 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\Practical 5\fibonacci.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.16 08:17:42 INFO  Cancelling compilation on scala-cli server
+2024.07.16 08:17:42 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 08:17:42 INFO  time: compiled Scala22000291_f4dd477a3a in 0.45s
+2024.07.16 08:17:42 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 08:17:43 INFO  time: Imported build in 0.56s
+2024.07.16 08:17:43 INFO  running doctor check
+2024.07.16 08:17:43 INFO  java targets: Scala22000291_f4dd477a3a, Scala22000291_f4dd477a3a-test
+2024.07.16 08:17:43 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 08:17:43 INFO  time: compiled Scala22000291_f4dd477a3a in 0.43s
+2024.07.16 08:17:45 INFO  time: indexed workspace in 2.69s
+2024.07.16 08:17:46 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 08:17:46 INFO  time: compiled Scala22000291_f4dd477a3a in 0.24s
+2024.07.16 08:18:32 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 08:18:32 INFO  time: compiled Scala22000291_f4dd477a3a in 0.34s
+2024.07.16 08:18:35 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 08:18:35 INFO  time: compiled Scala22000291_f4dd477a3a in 0.31s
+Jul 16, 2024 8:19:10 AM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\Practical 5\fibbanochi.scala
+java.nio.file.NoSuchFileException: C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\Practical 5\fibbanochi.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:43)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:21)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:410)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:44)
+	at dotty.tools.pc.utils.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:283)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramsDocs$lzyINIT1$1(ShortenedTypePrinter.scala:312)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramsDocs$1(ShortenedTypePrinter.scala:316)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.$anonfun$6(ShortenedTypePrinter.scala:333)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramLabel(ShortenedTypePrinter.scala:482)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.$anonfun$5(ShortenedTypePrinter.scala:335)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.label$1$$anonfun$1(ShortenedTypePrinter.scala:337)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.label$1(ShortenedTypePrinter.scala:342)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.defaultMethodSignature(ShortenedTypePrinter.scala:345)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.hoverSymbol(ShortenedTypePrinter.scala:239)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:124)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Jul 16, 2024 8:19:10 AM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\Practical 5\fibbanochi.scala
+java.nio.file.NoSuchFileException: C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\Practical 5\fibbanochi.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:43)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:21)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:410)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:295)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:44)
+	at dotty.tools.pc.utils.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:283)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramsDocs$lzyINIT1$1(ShortenedTypePrinter.scala:312)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramsDocs$1(ShortenedTypePrinter.scala:316)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.$anonfun$6(ShortenedTypePrinter.scala:333)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramLabel(ShortenedTypePrinter.scala:482)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.$anonfun$5(ShortenedTypePrinter.scala:335)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.label$1$$anonfun$1(ShortenedTypePrinter.scala:337)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.label$1(ShortenedTypePrinter.scala:342)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.defaultMethodSignature(ShortenedTypePrinter.scala:345)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.hoverSymbol(ShortenedTypePrinter.scala:239)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:124)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:363)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Jul 16, 2024 8:33:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4503
+Jul 16, 2024 8:34:16 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jul 16, 2024 8:49:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4756
+2024.07.16 08:51:57 INFO  Shutting down server
+2024.07.16 08:51:57 INFO  shutting down Metals
+2024.07.16 08:51:57 INFO  Shut down connection with build server.
+2024.07.16 08:51:57 INFO  BSP server: Jul 16, 2024 8:51:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2024.07.16 08:51:57 INFO  BSP server: WARNING: Notification threw an exception: {
+2024.07.16 08:51:57 INFO  BSP server:   "jsonrpc": "2.0",
+2024.07.16 08:51:57 INFO  BSP server:   "method": "build/exit",
+2024.07.16 08:51:57 INFO  BSP server:   "params": null
+2024.07.16 08:51:57 INFO  BSP server: }
+2024.07.16 08:51:57 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+2024.07.16 08:51:57 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+2024.07.16 08:51:57 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+2024.07.16 08:51:57 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+2024.07.16 08:51:57 INFO  Exiting server
+2024.07.16 09:20:01 INFO  Started: Metals version 1.3.3 in folders 'C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291' for client Visual Studio Code 1.91.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@23cd6129]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@36ea8627]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@23cd6129]
+2024.07.16 09:20:02 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.16 09:20:04 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\Practical 5\fibonacci.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.16 09:20:05 INFO  Attempting to connect to the build server...
+2024.07.16 09:20:05 INFO  Running BSP server List(C:\Users\LENOVO\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\.scala-build\ide-envs.json, C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291)
+2024.07.16 09:20:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\.metals\bsp.trace.json or C:\Users\LENOVO\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.16 09:20:11 INFO  BSP server: Starting compilation server
+2024.07.16 09:20:23 INFO  time: Connected to build server in 17s
+2024.07.16 09:20:23 INFO  Connected to Build server: scala-cli v1.4.0
+2024.07.16 09:20:23 INFO  time: Imported build in 0.3s
+2024.07.16 09:20:23 INFO  running doctor check
+2024.07.16 09:20:23 INFO  java targets: Scala22000291_f4dd477a3a, Scala22000291_f4dd477a3a-test
+2024.07.16 09:20:25 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 09:20:29 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.16 09:20:31 INFO  time: indexed workspace in 7.68s
+2024.07.16 09:20:35 INFO  time: compiled Scala22000291_f4dd477a3a in 10s
+2024.07.16 09:20:35 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 09:20:38 INFO  time: compiled Scala22000291_f4dd477a3a in 2.43s
+2024.07.16 09:20:38 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 09:20:40 INFO  time: compiled Scala22000291_f4dd477a3a in 1.81s
+2024.07.16 09:20:40 INFO  compiling scala22000291_f4dd477a3a (12 scala sources)
+2024.07.16 09:20:43 INFO  time: compiled Scala22000291_f4dd477a3a in 1.4s
+2024.07.16 14:37:44 INFO  Shutting down server
+2024.07.16 14:37:44 INFO  shutting down Metals
+2024.07.16 14:37:44 INFO  Shut down connection with build server.
+2024.07.16 14:37:44 INFO  Exiting server
+2024.07.22 23:50:43 INFO  Started: Metals version 1.3.3 in folders 'C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291' for client Visual Studio Code 1.91.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@5f8ca0]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@7e408ff6]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@5f8ca0]
+2024.07.22 23:50:44 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.22 23:50:45 INFO  Attempting to connect to the build server...
+2024.07.22 23:50:45 INFO  Running BSP server List(C:\Users\LENOVO\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\.scala-build\ide-envs.json, C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291)
+2024.07.22 23:50:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\.metals\bsp.trace.json or C:\Users\LENOVO\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.22 23:50:55 INFO  BSP server: Starting compilation server
+2024.07.22 23:50:57 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\reverse.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.22 23:50:58 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\reverse.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Jul 22, 2024 11:51:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Jul 22, 2024 11:51:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jul 22, 2024 11:51:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2024.07.22 23:51:03 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\reverse.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Jul 22, 2024 11:51:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+2024.07.22 23:51:03 WARN  no build target for: C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\reverse.scala
+Jul 22, 2024 11:51:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+2024.07.22 23:51:03 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\reverse.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.22 23:51:03 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\reverse.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Jul 22, 2024 11:51:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+Jul 22, 2024 11:51:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+Jul 22, 2024 11:51:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+2024.07.22 23:51:03 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\reverse.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Jul 22, 2024 11:51:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+2024.07.22 23:51:03 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\reverse.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.22 23:51:03 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\reverse.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.22 23:51:04 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\reverse.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.22 23:51:04 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\reverse.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.22 23:51:07 WARN  no build target for: C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\reverse.scala
+2024.07.22 23:51:07 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\reverse.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.22 23:51:08 INFO  time: Connected to build server in 22s
+2024.07.22 23:51:08 INFO  Connected to Build server: scala-cli v1.4.0
+2024.07.22 23:51:08 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\reverse.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.22 23:51:08 INFO  time: Imported build in 0.24s
+2024.07.22 23:51:08 INFO  running doctor check
+2024.07.22 23:51:08 INFO  java targets: Scala22000291_f4dd477a3a, Scala22000291_f4dd477a3a-test
+2024.07.22 23:51:09 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+Jul 22, 2024 11:51:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49
+Jul 22, 2024 11:51:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 45
+Jul 22, 2024 11:51:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48
+2024.07.22 23:51:16 INFO  time: compiled Scala22000291_f4dd477a3a in 6.72s
+2024.07.22 23:51:16 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.22 23:51:17 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.22 23:51:18 INFO  time: compiled Scala22000291_f4dd477a3a in 2.14s
+2024.07.22 23:51:19 INFO  time: indexed workspace in 10s
+2024.07.22 23:51:18 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.22 23:51:19 INFO  Deduplicating compilation of Scala22000291_f4dd477a3a from bsp client 'scala-cli 1.4.0' (since 12.947s)
+2024.07.22 23:51:19 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.22 23:51:19 INFO  time: compiled Scala22000291_f4dd477a3a in 0.81s
+2024.07.22 23:51:21 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.22 23:51:21 INFO  time: compiled Scala22000291_f4dd477a3a in 0.96s
+2024.07.22 23:51:22 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.22 23:51:22 INFO  time: compiled Scala22000291_f4dd477a3a in 0.92s
+2024.07.22 23:51:27 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.22 23:51:27 INFO  time: compiled Scala22000291_f4dd477a3a in 0.66s
+2024.07.22 23:51:30 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.22 23:51:30 INFO  time: compiled Scala22000291_f4dd477a3a in 0.82s
+2024.07.22 23:51:33 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.22 23:51:33 INFO  time: compiled Scala22000291_f4dd477a3a in 0.74s
+2024.07.22 23:51:51 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.22 23:51:51 INFO  time: compiled Scala22000291_f4dd477a3a in 0.74s
+2024.07.22 23:52:04 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.22 23:52:04 INFO  time: compiled Scala22000291_f4dd477a3a in 0.7s
+Jul 22, 2024 11:52:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 321
+2024.07.22 23:52:15 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.22 23:52:15 INFO  time: compiled Scala22000291_f4dd477a3a in 0.62s
+2024.07.22 23:52:19 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.22 23:52:19 INFO  time: compiled Scala22000291_f4dd477a3a in 0.6s
+2024.07.22 23:52:34 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.22 23:52:34 INFO  time: compiled Scala22000291_f4dd477a3a in 0.65s
+Jul 22, 2024 11:52:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 463
+2024.07.22 23:52:50 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.22 23:52:52 INFO  time: compiled Scala22000291_f4dd477a3a in 1.69s
+2024.07.22 23:52:56 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.22 23:52:57 INFO  time: compiled Scala22000291_f4dd477a3a in 1.25s
+2024.07.22 23:53:10 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.22 23:53:11 INFO  time: compiled Scala22000291_f4dd477a3a in 1.26s
+Jul 23, 2024 5:55:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 672
+2024.07.23 05:55:43 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.23 05:55:43 INFO  time: compiled Scala22000291_f4dd477a3a in 0.63s
+2024.07.23 05:56:52 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.23 05:56:52 INFO  time: compiled Scala22000291_f4dd477a3a in 0.51s
+2024.07.23 05:57:03 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.23 05:57:03 INFO  time: compiled Scala22000291_f4dd477a3a in 0.46s
+2024.07.23 05:57:11 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.23 05:57:11 INFO  time: compiled Scala22000291_f4dd477a3a in 0.55s
+2024.07.23 05:57:16 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.23 05:57:16 INFO  time: compiled Scala22000291_f4dd477a3a in 0.65s
+2024.07.23 05:57:20 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.23 05:57:20 INFO  time: compiled Scala22000291_f4dd477a3a in 0.41s
+2024.07.23 05:57:26 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.23 05:57:26 INFO  time: compiled Scala22000291_f4dd477a3a in 0.45s
+Jul 23, 2024 5:57:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 851
+2024.07.23 05:57:30 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.23 05:57:30 INFO  time: compiled Scala22000291_f4dd477a3a in 0.55s
+2024.07.23 05:57:33 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.23 05:57:33 INFO  time: compiled Scala22000291_f4dd477a3a in 0.45s
+2024.07.23 05:57:39 INFO  compiling scala22000291_f4dd477a3a (13 scala sources)
+2024.07.23 05:57:39 INFO  time: compiled Scala22000291_f4dd477a3a in 0.47s
+2024.07.23 06:01:45 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\list.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.23 06:01:45 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\list.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.23 06:01:45 WARN  Could not find semantic tokens for: file:///C:/Users/LENOVO/UCSC/2nd%20Year/semester%201/2204%20Functional%20Programming/Practicals/gitRepo/Scala22000291/practical%203/list.scala
+2024.07.23 06:01:46 INFO  running doctor check
+2024.07.23 06:01:46 INFO  java targets: Scala22000291_f4dd477a3a, Scala22000291_f4dd477a3a-test
+2024.07.23 06:01:46 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:01:46 INFO  time: compiled Scala22000291_f4dd477a3a in 0.59s
+2024.07.23 06:01:46 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:01:47 INFO  time: compiled Scala22000291_f4dd477a3a in 0.51s
+2024.07.23 06:01:48 INFO  time: indexed workspace in 2.9s
+2024.07.23 06:01:49 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:01:49 INFO  time: compiled Scala22000291_f4dd477a3a in 0.38s
+2024.07.23 06:01:50 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:01:50 INFO  time: compiled Scala22000291_f4dd477a3a in 0.33s
+2024.07.23 06:01:58 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:01:58 INFO  time: compiled Scala22000291_f4dd477a3a in 0.45s
+2024.07.23 06:02:23 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\listFilter.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.23 06:02:24 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\listFilter.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.23 06:02:24 INFO  Cancelling compilation on scala-cli server
+2024.07.23 06:02:24 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\listFilter.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.23 06:02:24 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:02:24 WARN  Invalid text document uri received from build server: file:///C:/Users/LENOVO/UCSC/2nd%20Year/semester%201/2204%20Functional%20Programming/Practicals/gitRepo/Scala22000291/practical%203/list.scala
+2024.07.23 06:02:24 INFO  time: compiled Scala22000291_f4dd477a3a in 0.5s
+2024.07.23 06:02:24 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:02:25 INFO  time: Imported build in 0.63s
+2024.07.23 06:02:25 INFO  running doctor check
+2024.07.23 06:02:25 INFO  java targets: Scala22000291_f4dd477a3a, Scala22000291_f4dd477a3a-test
+2024.07.23 06:02:25 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:02:25 INFO  time: compiled Scala22000291_f4dd477a3a in 0.46s
+2024.07.23 06:02:27 INFO  time: indexed workspace in 2.6s
+2024.07.23 06:02:28 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:02:28 INFO  time: compiled Scala22000291_f4dd477a3a in 0.67s
+2024.07.23 06:02:31 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:02:31 INFO  time: compiled Scala22000291_f4dd477a3a in 0.46s
+2024.07.23 06:02:34 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:02:34 INFO  time: compiled Scala22000291_f4dd477a3a in 0.32s
+2024.07.23 06:02:40 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:02:40 INFO  time: compiled Scala22000291_f4dd477a3a in 0.38s
+2024.07.23 06:02:44 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:02:44 INFO  time: compiled Scala22000291_f4dd477a3a in 0.37s
+Jul 23, 2024 6:02:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1108
+Jul 23, 2024 6:02:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1137
+2024.07.23 06:03:01 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:03:01 INFO  time: compiled Scala22000291_f4dd477a3a in 0.38s
+2024.07.23 06:03:06 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:03:06 INFO  time: compiled Scala22000291_f4dd477a3a in 0.41s
+2024.07.23 06:03:11 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:03:11 INFO  time: compiled Scala22000291_f4dd477a3a in 0.36s
+2024.07.23 06:03:20 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:03:20 INFO  time: compiled Scala22000291_f4dd477a3a in 0.36s
+2024.07.23 06:03:31 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:03:31 INFO  time: compiled Scala22000291_f4dd477a3a in 0.36s
+2024.07.23 06:03:52 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:03:52 INFO  time: compiled Scala22000291_f4dd477a3a in 0.38s
+2024.07.23 06:03:57 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:03:57 INFO  time: compiled Scala22000291_f4dd477a3a in 0.38s
+Jul 23, 2024 6:05:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://05e4dc50-a7db-40b1-a274-a5f70adb072b/response_8/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5CUsers%5C%5CLENOVO%5C%5CUCSC%5C%5C2nd%20Year%5C%5Csemester%201%5C%5C2204%20Functional%20Programming%5C%5CPracticals%5C%5CgitRepo%5C%5CScala22000291%5C%5Cpractical%203%5C%5ClistFilter.scala%22%2C%22_sep%22%3A1%2C%22external%22%3A%22file%3A%2F%2F%2Fc%253A%2FUsers%2FLENOVO%2FUCSC%2F2nd%2520Year%2Fsemester%25201%2F2204%2520Functional%2520Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical%25203%2FlistFilter.scala%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2FLENOVO%2FUCSC%2F2nd%20Year%2Fsemester%201%2F2204%20Functional%20Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical%203%2FlistFilter.scala%22%2C%22scheme%22%3A%22file%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A1%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A9%2C%22endColumn%22%3A2%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:188)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:756)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:753)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:695)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024.07.23 06:05:15 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:05:15 INFO  time: compiled Scala22000291_f4dd477a3a in 0.43s
+Jul 23, 2024 6:05:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://05e4dc50-a7db-40b1-a274-a5f70adb072b/response_8/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5CUsers%5C%5CLENOVO%5C%5CUCSC%5C%5C2nd%20Year%5C%5Csemester%201%5C%5C2204%20Functional%20Programming%5C%5CPracticals%5C%5CgitRepo%5C%5CScala22000291%5C%5Cpractical%203%5C%5ClistFilter.scala%22%2C%22_sep%22%3A1%2C%22external%22%3A%22file%3A%2F%2F%2Fc%253A%2FUsers%2FLENOVO%2FUCSC%2F2nd%2520Year%2Fsemester%25201%2F2204%2520Functional%2520Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical%25203%2FlistFilter.scala%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2FLENOVO%2FUCSC%2F2nd%20Year%2Fsemester%201%2F2204%20Functional%20Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical%203%2FlistFilter.scala%22%2C%22scheme%22%3A%22file%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A1%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A9%2C%22endColumn%22%3A2%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:188)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:756)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:753)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:695)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024.07.23 06:07:32 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:07:32 INFO  time: compiled Scala22000291_f4dd477a3a in 0.41s
+2024.07.23 06:07:36 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:07:36 INFO  time: compiled Scala22000291_f4dd477a3a in 0.39s
+2024.07.23 06:07:39 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:07:39 INFO  time: compiled Scala22000291_f4dd477a3a in 0.47s
+2024.07.23 06:07:56 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:07:56 INFO  time: compiled Scala22000291_f4dd477a3a in 0.8s
+2024.07.23 06:08:03 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:08:03 INFO  time: compiled Scala22000291_f4dd477a3a in 0.41s
+Jul 23, 2024 6:08:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1607
+2024.07.23 06:08:08 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:08:08 INFO  time: compiled Scala22000291_f4dd477a3a in 0.42s
+2024.07.23 06:08:12 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:08:12 INFO  time: compiled Scala22000291_f4dd477a3a in 0.34s
+2024.07.23 06:08:14 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:08:14 INFO  time: compiled Scala22000291_f4dd477a3a in 0.35s
+2024.07.23 06:08:17 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:08:17 INFO  time: compiled Scala22000291_f4dd477a3a in 0.36s
+Jul 23, 2024 6:08:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1732
+Jul 23, 2024 6:08:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1757
+2024.07.23 06:08:38 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:08:38 INFO  time: compiled Scala22000291_f4dd477a3a in 0.35s
+2024.07.23 06:08:43 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:08:43 INFO  time: compiled Scala22000291_f4dd477a3a in 0.45s
+2024.07.23 06:08:47 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:08:47 INFO  time: compiled Scala22000291_f4dd477a3a in 0.42s
+2024.07.23 06:08:57 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:08:57 INFO  time: compiled Scala22000291_f4dd477a3a in 0.42s
+2024.07.23 06:09:21 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:09:21 INFO  time: compiled Scala22000291_f4dd477a3a in 0.43s
+2024.07.23 06:09:28 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:09:28 INFO  time: compiled Scala22000291_f4dd477a3a in 0.39s
+2024.07.23 06:09:33 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:09:33 INFO  time: compiled Scala22000291_f4dd477a3a in 0.43s
+2024.07.23 06:09:47 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:09:47 INFO  time: compiled Scala22000291_f4dd477a3a in 0.43s
+2024.07.23 06:09:50 INFO  compiling scala22000291_f4dd477a3a (14 scala sources)
+2024.07.23 06:09:50 INFO  time: compiled Scala22000291_f4dd477a3a in 0.35s
+2024.07.23 06:14:05 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\mean.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.23 06:14:05 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\mean.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.23 06:14:06 WARN  Could not find semantic tokens for: file:///C:/Users/LENOVO/UCSC/2nd%20Year/semester%201/2204%20Functional%20Programming/Practicals/gitRepo/Scala22000291/practical%203/mean.scala
+2024.07.23 06:14:06 INFO  compiling scala22000291_f4dd477a3a (15 scala sources)
+2024.07.23 06:14:06 INFO  running doctor check
+2024.07.23 06:14:06 INFO  java targets: Scala22000291_f4dd477a3a, Scala22000291_f4dd477a3a-test
+2024.07.23 06:14:06 INFO  time: compiled Scala22000291_f4dd477a3a in 0.43s
+2024.07.23 06:14:06 INFO  compiling scala22000291_f4dd477a3a (15 scala sources)
+2024.07.23 06:14:06 INFO  time: compiled Scala22000291_f4dd477a3a in 0.38s
+2024.07.23 06:14:08 WARN  Could not find semantic tokens for: file:///C:/Users/LENOVO/UCSC/2nd%20Year/semester%201/2204%20Functional%20Programming/Practicals/gitRepo/Scala22000291/practical%203/mean.scala
+2024.07.23 06:14:08 WARN  Could not find semantic tokens for: file:///C:/Users/LENOVO/UCSC/2nd%20Year/semester%201/2204%20Functional%20Programming/Practicals/gitRepo/Scala22000291/practical%203/mean.scala
+2024.07.23 06:14:08 WARN  Could not find semantic tokens for: file:///C:/Users/LENOVO/UCSC/2nd%20Year/semester%201/2204%20Functional%20Programming/Practicals/gitRepo/Scala22000291/practical%203/mean.scala
+2024.07.23 06:14:09 INFO  time: indexed workspace in 2.73s
+2024.07.23 06:14:08 WARN  Could not find semantic tokens for: file:///C:/Users/LENOVO/UCSC/2nd%20Year/semester%201/2204%20Functional%20Programming/Practicals/gitRepo/Scala22000291/practical%203/mean.scala
+2024.07.23 06:14:09 INFO  compiling scala22000291_f4dd477a3a (15 scala sources)
+2024.07.23 06:14:09 INFO  time: compiled Scala22000291_f4dd477a3a in 0.27s
+2024.07.23 06:14:09 WARN  Could not find semantic tokens for: file:///C:/Users/LENOVO/UCSC/2nd%20Year/semester%201/2204%20Functional%20Programming/Practicals/gitRepo/Scala22000291/practical%203/mean.scala
+2024.07.23 06:14:15 INFO  compiling scala22000291_f4dd477a3a (15 scala sources)
+2024.07.23 06:14:15 INFO  time: compiled Scala22000291_f4dd477a3a in 0.35s
+2024.07.23 06:14:18 INFO  compiling scala22000291_f4dd477a3a (15 scala sources)
+2024.07.23 06:14:18 INFO  time: compiled Scala22000291_f4dd477a3a in 0.4s
+2024.07.23 06:14:24 INFO  compiling scala22000291_f4dd477a3a (15 scala sources)
+2024.07.23 06:14:24 INFO  time: compiled Scala22000291_f4dd477a3a in 0.34s
+2024.07.23 06:14:28 INFO  compiling scala22000291_f4dd477a3a (15 scala sources)
+2024.07.23 06:14:28 INFO  time: compiled Scala22000291_f4dd477a3a in 0.35s
+2024.07.23 06:14:45 INFO  compiling scala22000291_f4dd477a3a (15 scala sources)
+2024.07.23 06:14:45 INFO  time: compiled Scala22000291_f4dd477a3a in 0.31s
+2024.07.23 06:14:55 INFO  compiling scala22000291_f4dd477a3a (15 scala sources)
+2024.07.23 06:14:55 INFO  time: compiled Scala22000291_f4dd477a3a in 0.38s
+2024.07.23 06:14:57 INFO  compiling scala22000291_f4dd477a3a (15 scala sources)
+2024.07.23 06:14:57 INFO  time: compiled Scala22000291_f4dd477a3a in 0.71s
+2024.07.23 06:15:00 INFO  compiling scala22000291_f4dd477a3a (15 scala sources)
+2024.07.23 06:15:00 INFO  time: compiled Scala22000291_f4dd477a3a in 0.33s
+2024.07.23 06:15:07 INFO  compiling scala22000291_f4dd477a3a (15 scala sources)
+2024.07.23 06:15:07 INFO  time: compiled Scala22000291_f4dd477a3a in 0.35s
+2024.07.23 06:15:14 INFO  compiling scala22000291_f4dd477a3a (15 scala sources)
+2024.07.23 06:15:14 INFO  time: compiled Scala22000291_f4dd477a3a in 0.35s
+Jul 23, 2024 6:15:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2204
+2024.07.23 06:15:22 INFO  compiling scala22000291_f4dd477a3a (15 scala sources)
+2024.07.23 06:15:22 INFO  time: compiled Scala22000291_f4dd477a3a in 0.33s
+2024.07.23 06:15:28 INFO  compiling scala22000291_f4dd477a3a (15 scala sources)
+2024.07.23 06:15:28 INFO  time: compiled Scala22000291_f4dd477a3a in 0.3s
+2024.07.23 06:15:32 INFO  compiling scala22000291_f4dd477a3a (15 scala sources)
+2024.07.23 06:15:32 INFO  time: compiled Scala22000291_f4dd477a3a in 0.31s
+2024.07.23 06:17:28 INFO  compiling scala22000291_f4dd477a3a (15 scala sources)
+2024.07.23 06:17:28 INFO  time: compiled Scala22000291_f4dd477a3a in 0.45s
+Jul 23, 2024 6:17:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2416
+Jul 23, 2024 6:17:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2422
+2024.07.23 06:17:46 INFO  compiling scala22000291_f4dd477a3a (15 scala sources)
+2024.07.23 06:17:46 INFO  time: compiled Scala22000291_f4dd477a3a in 0.32s
+2024.07.23 06:17:52 INFO  compiling scala22000291_f4dd477a3a (15 scala sources)
+2024.07.23 06:17:52 INFO  time: compiled Scala22000291_f4dd477a3a in 0.33s
+2024.07.23 06:17:55 INFO  compiling scala22000291_f4dd477a3a (15 scala sources)
+2024.07.23 06:17:55 INFO  time: compiled Scala22000291_f4dd477a3a in 0.34s
+2024.07.23 06:18:01 INFO  compiling scala22000291_f4dd477a3a (15 scala sources)
+2024.07.23 06:18:01 INFO  time: compiled Scala22000291_f4dd477a3a in 0.32s
+Jul 23, 2024 6:18:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2573
+2024.07.23 06:18:29 INFO  compiling scala22000291_f4dd477a3a (15 scala sources)
+2024.07.23 06:18:29 INFO  time: compiled Scala22000291_f4dd477a3a in 0.35s
+Jul 23, 2024 6:18:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2607
+2024.07.23 06:18:57 INFO  compiling scala22000291_f4dd477a3a (15 scala sources)
+2024.07.23 06:18:57 INFO  time: compiled Scala22000291_f4dd477a3a in 0.32s
+2024.07.23 06:24:29 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\evenAdd.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.23 06:24:30 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\evenAdd.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.23 06:24:30 WARN  Could not find semantic tokens for: file:///C:/Users/LENOVO/UCSC/2nd%20Year/semester%201/2204%20Functional%20Programming/Practicals/gitRepo/Scala22000291/practical%203/evenAdd.scala
+2024.07.23 06:24:30 INFO  running doctor check
+2024.07.23 06:24:30 INFO  java targets: Scala22000291_f4dd477a3a, Scala22000291_f4dd477a3a-test
+2024.07.23 06:24:30 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:24:30 INFO  time: compiled Scala22000291_f4dd477a3a in 0.48s
+2024.07.23 06:24:30 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:24:31 INFO  time: compiled Scala22000291_f4dd477a3a in 0.39s
+2024.07.23 06:24:33 INFO  time: indexed workspace in 2.67s
+2024.07.23 06:24:33 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:24:33 INFO  time: compiled Scala22000291_f4dd477a3a in 0.38s
+2024.07.23 06:24:36 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:24:36 INFO  time: compiled Scala22000291_f4dd477a3a in 0.4s
+2024.07.23 06:24:43 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:24:43 INFO  time: compiled Scala22000291_f4dd477a3a in 0.39s
+2024.07.23 06:24:46 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:24:46 INFO  time: compiled Scala22000291_f4dd477a3a in 0.41s
+2024.07.23 06:25:15 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:25:15 INFO  time: compiled Scala22000291_f4dd477a3a in 0.36s
+2024.07.23 06:25:24 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:25:24 INFO  time: compiled Scala22000291_f4dd477a3a in 0.36s
+2024.07.23 06:25:29 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:25:29 INFO  time: compiled Scala22000291_f4dd477a3a in 0.32s
+2024.07.23 06:25:47 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:25:47 INFO  time: compiled Scala22000291_f4dd477a3a in 0.37s
+2024.07.23 06:25:52 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:25:52 INFO  time: compiled Scala22000291_f4dd477a3a in 0.33s
+2024.07.23 06:25:56 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:25:56 INFO  time: compiled Scala22000291_f4dd477a3a in 0.38s
+2024.07.23 06:26:05 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:26:05 INFO  time: compiled Scala22000291_f4dd477a3a in 0.32s
+2024.07.23 06:26:10 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:26:10 INFO  time: compiled Scala22000291_f4dd477a3a in 0.35s
+2024.07.23 06:26:20 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:26:20 INFO  time: compiled Scala22000291_f4dd477a3a in 0.3s
+2024.07.23 06:26:34 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:26:34 INFO  time: compiled Scala22000291_f4dd477a3a in 0.3s
+2024.07.23 06:26:43 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:26:43 INFO  time: compiled Scala22000291_f4dd477a3a in 0.33s
+2024.07.23 06:27:05 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:27:05 INFO  time: compiled Scala22000291_f4dd477a3a in 0.32s
+2024.07.23 06:27:09 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:27:09 INFO  time: compiled Scala22000291_f4dd477a3a in 0.32s
+2024.07.23 06:27:12 ERROR Failed to tokenize input for semantic tokens for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\evenAdd.scala
+scala.meta.tokenizers.TokenizeException: <input>:20: error: unclosed string interpolation
+    println(s"The sum of even numbers is: $sumEven(numbers))
+                                                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:605)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:239)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.23 06:27:13 ERROR Failed to tokenize input for semantic tokens for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\evenAdd.scala
+scala.meta.tokenizers.TokenizeException: <input>:20: error: unclosed string interpolation
+    println(s"The sum of even numbers is: $sumEven(numbers)`)
+                                                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:605)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:239)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.23 06:27:15 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:27:15 INFO  time: compiled Scala22000291_f4dd477a3a in 0.34s
+2024.07.23 06:27:18 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:27:18 INFO  time: compiled Scala22000291_f4dd477a3a in 0.38s
+2024.07.23 06:27:22 ERROR Failed to tokenize input for semantic tokens for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\evenAdd.scala
+scala.meta.tokenizers.TokenizeException: <input>:20: error: unclosed quoted identifier
+    println(s`The sum of even numbers is: $sumEven(numbers))
+             ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getBackquotedIdent(LegacyScanner.scala:456)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:327)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.23 06:27:22 ERROR Failed to tokenize input for semantic tokens for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\evenAdd.scala
+scala.meta.tokenizers.TokenizeException: <input>:20: error: unclosed quoted identifier
+    println(s`The sum of even numbers is: $sumEven(numbers)'')
+             ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getBackquotedIdent(LegacyScanner.scala:456)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:327)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.23 06:27:24 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:27:24 INFO  time: compiled Scala22000291_f4dd477a3a in 0.29s
+2024.07.23 06:27:25 ERROR Failed to tokenize input for semantic tokens for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\evenAdd.scala
+scala.meta.tokenizers.TokenizeException: <input>:20: error: unclosed quoted identifier
+    println(s`The sum of even numbers is: $sumEven(numbers)'')
+             ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getBackquotedIdent(LegacyScanner.scala:456)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:327)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.23 06:27:26 ERROR Failed to tokenize input for semantic tokens for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\evenAdd.scala
+scala.meta.tokenizers.TokenizeException: <input>:20: error: unclosed character literal
+    println(s'The sum of even numbers is: $sumEven(numbers)'')
+                                                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:391)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:395)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.23 06:27:28 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:27:28 INFO  time: compiled Scala22000291_f4dd477a3a in 0.39s
+2024.07.23 06:27:29 ERROR Failed to tokenize input for semantic tokens for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\evenAdd.scala
+scala.meta.tokenizers.TokenizeException: <input>:20: error: unclosed character literal
+    println(s'The sum of even numbers is: $sumEven(numbers)')
+                                                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:391)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:395)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.23 06:27:31 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:27:31 INFO  time: compiled Scala22000291_f4dd477a3a in 0.39s
+2024.07.23 06:27:32 ERROR Failed to tokenize input for semantic tokens for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\evenAdd.scala
+scala.meta.tokenizers.TokenizeException: <input>:20: error: unclosed character literal
+    println(s'The sum of even numbers is: $sumEven(numbers)')
+                                                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:391)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:395)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.23 06:27:36 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:27:36 INFO  time: compiled Scala22000291_f4dd477a3a in 0.36s
+2024.07.23 06:27:38 ERROR Failed to tokenize input for semantic tokens for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\evenAdd.scala
+scala.meta.tokenizers.TokenizeException: <input>:20: error: unclosed string literal
+    println(s"The sum of even numbers is: $sumEven(numbers)"")
+                                                            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:509)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:361)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.23 06:27:40 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+Jul 23, 2024 6:27:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3177
+2024.07.23 06:27:40 INFO  time: compiled Scala22000291_f4dd477a3a in 0.33s
+2024.07.23 06:27:41 ERROR Failed to tokenize input for semantic tokens for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical 3\evenAdd.scala
+scala.meta.tokenizers.TokenizeException: <input>:20: error: unclosed string literal
+    println(s"The sum of even numbers is: $sumEven(numbers)"")
+                                                            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:509)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:361)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.23 06:27:44 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:27:44 INFO  time: compiled Scala22000291_f4dd477a3a in 0.29s
+2024.07.23 06:28:25 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:28:25 INFO  time: compiled Scala22000291_f4dd477a3a in 0.35s
+2024.07.23 06:28:39 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:28:39 INFO  time: compiled Scala22000291_f4dd477a3a in 0.29s
+2024.07.23 06:28:47 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:28:47 INFO  time: compiled Scala22000291_f4dd477a3a in 0.36s
+2024.07.23 06:28:49 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:28:49 INFO  time: compiled Scala22000291_f4dd477a3a in 0.32s
+2024.07.23 06:28:53 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:28:53 INFO  time: compiled Scala22000291_f4dd477a3a in 0.32s
+2024.07.23 06:28:59 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:28:59 INFO  time: compiled Scala22000291_f4dd477a3a in 0.3s
+2024.07.23 06:29:02 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:29:02 INFO  time: compiled Scala22000291_f4dd477a3a in 0.31s
+2024.07.23 06:29:05 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:29:05 INFO  time: compiled Scala22000291_f4dd477a3a in 0.3s
+2024.07.23 06:29:09 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:29:09 INFO  time: compiled Scala22000291_f4dd477a3a in 0.31s
+2024.07.23 06:29:12 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:29:12 INFO  time: compiled Scala22000291_f4dd477a3a in 0.32s
+2024.07.23 06:29:17 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:29:17 INFO  time: compiled Scala22000291_f4dd477a3a in 0.34s
+Jul 23, 2024 6:29:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3343
+2024.07.23 06:29:21 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:29:21 INFO  time: compiled Scala22000291_f4dd477a3a in 0.46s
+2024.07.23 06:29:23 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:29:23 INFO  time: compiled Scala22000291_f4dd477a3a in 0.33s
+2024.07.23 06:29:30 INFO  compiling scala22000291_f4dd477a3a (16 scala sources)
+2024.07.23 06:29:30 INFO  time: compiled Scala22000291_f4dd477a3a in 0.36s
+2024.07.23 06:34:45 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical4\inventory.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.23 06:34:46 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical4\inventory.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.23 06:34:46 WARN  Could not find semantic tokens for: file:///C:/Users/LENOVO/UCSC/2nd%20Year/semester%201/2204%20Functional%20Programming/Practicals/gitRepo/Scala22000291/practical4/inventory.scala
+2024.07.23 06:34:46 INFO  running doctor check
+2024.07.23 06:34:46 INFO  java targets: Scala22000291_f4dd477a3a, Scala22000291_f4dd477a3a-test
+2024.07.23 06:34:46 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:34:46 INFO  time: compiled Scala22000291_f4dd477a3a in 0.4s
+2024.07.23 06:34:46 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:34:46 INFO  time: compiled Scala22000291_f4dd477a3a in 0.33s
+2024.07.23 06:34:49 INFO  time: indexed workspace in 2.53s
+2024.07.23 06:34:49 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:34:49 INFO  time: compiled Scala22000291_f4dd477a3a in 0.36s
+2024.07.23 06:34:49 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:34:50 INFO  time: compiled Scala22000291_f4dd477a3a in 0.34s
+2024.07.23 06:35:10 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical3\reverse.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.23 06:35:10 INFO  time: Imported build in 0.13s
+2024.07.23 06:35:10 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:35:10 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical3\evenAdd.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.23 06:35:10 INFO  running doctor check
+2024.07.23 06:35:10 INFO  java targets: Scala22000291_f4dd477a3a, Scala22000291_f4dd477a3a-test
+2024.07.23 06:35:10 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:35:11 INFO  time: compiled Scala22000291_f4dd477a3a in 0.43s
+2024.07.23 06:35:13 INFO  time: indexed workspace in 3.21s
+2024.07.23 06:35:14 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:35:14 INFO  time: compiled Scala22000291_f4dd477a3a in 0.28s
+2024.07.23 06:35:17 INFO  running doctor check
+2024.07.23 06:35:17 INFO  java targets: Scala22000291_f4dd477a3a, Scala22000291_f4dd477a3a-test
+2024.07.23 06:35:17 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:35:17 WARN  Invalid text document uri received from build server: file:///C:/Users/LENOVO/UCSC/2nd%20Year/semester%201/2204%20Functional%20Programming/Practicals/gitRepo/Scala22000291/Practical%205/inventMng.scala
+2024.07.23 06:35:17 INFO  time: compiled Scala22000291_f4dd477a3a in 0.55s
+2024.07.23 06:35:17 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:35:19 INFO  time: compiled Scala22000291_f4dd477a3a in 0.44s
+2024.07.23 06:35:20 INFO  time: indexed workspace in 2.68s
+2024.07.23 06:35:20 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:35:21 INFO  Cancelling compilation on scala-cli server
+2024.07.23 06:35:20 WARN  Invalid text document uri received from build server: file:///C:/Users/LENOVO/UCSC/2nd%20Year/semester%201/2204%20Functional%20Programming/Practicals/gitRepo/Scala22000291/Practical%202/3.scala
+2024.07.23 06:35:20 WARN  Invalid text document uri received from build server: file:///C:/Users/LENOVO/UCSC/2nd%20Year/semester%201/2204%20Functional%20Programming/Practicals/gitRepo/Scala22000291/Practical%202/2.scala
+2024.07.23 06:35:20 WARN  Invalid text document uri received from build server: file:///C:/Users/LENOVO/UCSC/2nd%20Year/semester%201/2204%20Functional%20Programming/Practicals/gitRepo/Scala22000291/Practical%202/4.scala
+2024.07.23 06:35:20 INFO  time: compiled Scala22000291_f4dd477a3a in 0.35s
+2024.07.23 06:35:20 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:35:21 INFO  time: Imported build in 0.23s
+2024.07.23 06:35:21 INFO  running doctor check
+2024.07.23 06:35:21 INFO  java targets: Scala22000291_f4dd477a3a, Scala22000291_f4dd477a3a-test
+2024.07.23 06:35:20 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:35:22 INFO  time: compiled Scala22000291_f4dd477a3a in 0.38s
+2024.07.23 06:35:23 INFO  time: indexed workspace in 2.39s
+2024.07.23 06:35:24 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:35:24 INFO  time: compiled Scala22000291_f4dd477a3a in 0.3s
+2024.07.23 06:35:26 INFO  running doctor check
+2024.07.23 06:35:26 INFO  java targets: Scala22000291_f4dd477a3a, Scala22000291_f4dd477a3a-test
+2024.07.23 06:35:26 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:35:26 WARN  Invalid text document uri received from build server: file:///C:/Users/LENOVO/UCSC/2nd%20Year/semester%201/2204%20Functional%20Programming/Practicals/gitRepo/Scala22000291/Practical%201/p3.scala
+2024.07.23 06:35:26 WARN  Invalid text document uri received from build server: file:///C:/Users/LENOVO/UCSC/2nd%20Year/semester%201/2204%20Functional%20Programming/Practicals/gitRepo/Scala22000291/Practical%201/p5.scala
+2024.07.23 06:35:26 WARN  Invalid text document uri received from build server: file:///C:/Users/LENOVO/UCSC/2nd%20Year/semester%201/2204%20Functional%20Programming/Practicals/gitRepo/Scala22000291/Practical%201/p2.scala
+2024.07.23 06:35:26 WARN  Invalid text document uri received from build server: file:///C:/Users/LENOVO/UCSC/2nd%20Year/semester%201/2204%20Functional%20Programming/Practicals/gitRepo/Scala22000291/Practical%201/p4.scala
+2024.07.23 06:35:26 INFO  time: compiled Scala22000291_f4dd477a3a in 0.35s
+2024.07.23 06:35:26 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:35:26 INFO  time: compiled Scala22000291_f4dd477a3a in 0.31s
+2024.07.23 06:35:28 INFO  time: indexed workspace in 2.51s
+2024.07.23 06:35:29 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:35:29 INFO  time: compiled Scala22000291_f4dd477a3a in 0.31s
+2024.07.23 06:35:34 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:35:34 INFO  running doctor check
+2024.07.23 06:35:34 INFO  java targets: Scala22000291_f4dd477a3a, Scala22000291_f4dd477a3a-test
+2024.07.23 06:35:34 INFO  time: compiled Scala22000291_f4dd477a3a in 0.37s
+2024.07.23 06:35:34 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:35:34 INFO  time: compiled Scala22000291_f4dd477a3a in 0.35s
+2024.07.23 06:35:36 INFO  time: indexed workspace in 2.58s
+2024.07.23 06:35:36 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:35:36 INFO  time: compiled Scala22000291_f4dd477a3a in 0.3s
+2024.07.23 06:35:37 INFO  running doctor check
+2024.07.23 06:35:37 INFO  java targets: Scala22000291_f4dd477a3a, Scala22000291_f4dd477a3a-test
+2024.07.23 06:35:36 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:35:38 INFO  time: compiled Scala22000291_f4dd477a3a in 0.26s
+2024.07.23 06:35:38 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:35:38 INFO  time: compiled Scala22000291_f4dd477a3a in 0.3s
+2024.07.23 06:35:40 INFO  time: indexed workspace in 2.52s
+2024.07.23 06:35:40 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:35:40 INFO  time: compiled Scala22000291_f4dd477a3a in 0.28s
+2024.07.23 06:36:10 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:36:10 INFO  time: compiled Scala22000291_f4dd477a3a in 0.38s
+2024.07.23 06:36:19 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:36:19 INFO  time: compiled Scala22000291_f4dd477a3a in 0.34s
+Jul 23, 2024 6:36:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3524
+2024.07.23 06:36:28 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:36:28 INFO  time: compiled Scala22000291_f4dd477a3a in 0.34s
+2024.07.23 06:36:39 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:36:39 INFO  time: compiled Scala22000291_f4dd477a3a in 0.39s
+Jul 23, 2024 6:36:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3555
+2024.07.23 06:36:51 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:36:51 INFO  time: compiled Scala22000291_f4dd477a3a in 0.45s
+Jul 23, 2024 6:37:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3581
+2024.07.23 06:37:01 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:37:01 INFO  time: compiled Scala22000291_f4dd477a3a in 0.31s
+2024.07.23 06:37:37 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:37:37 INFO  time: compiled Scala22000291_f4dd477a3a in 0.42s
+Jul 23, 2024 6:38:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://05e4dc50-a7db-40b1-a274-a5f70adb072b/response_13/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5CUsers%5C%5CLENOVO%5C%5CUCSC%5C%5C2nd%20Year%5C%5Csemester%201%5C%5C2204%20Functional%20Programming%5C%5CPracticals%5C%5CgitRepo%5C%5CScala22000291%5C%5Cpractical4%5C%5Cinventory.scala%22%2C%22_sep%22%3A1%2C%22external%22%3A%22file%3A%2F%2F%2Fc%253A%2FUsers%2FLENOVO%2FUCSC%2F2nd%2520Year%2Fsemester%25201%2F2204%2520Functional%2520Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical4%2Finventory.scala%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2FLENOVO%2FUCSC%2F2nd%20Year%2Fsemester%201%2F2204%20Functional%20Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical4%2Finventory.scala%22%2C%22scheme%22%3A%22file%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A1%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A24%2C%22endColumn%22%3A58%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:188)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:756)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:753)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:695)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Jul 23, 2024 6:39:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3657
+2024.07.23 06:39:35 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:39:35 INFO  time: compiled Scala22000291_f4dd477a3a in 0.43s
+2024.07.23 06:39:39 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:39:39 INFO  time: compiled Scala22000291_f4dd477a3a in 0.37s
+2024.07.23 06:39:44 INFO  compiling scala22000291_f4dd477a3a (17 scala sources)
+2024.07.23 06:39:44 INFO  time: compiled Scala22000291_f4dd477a3a in 0.34s
+Jul 23, 2024 6:39:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3701
+Jul 23, 2024 6:39:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3716
+2024.07.23 06:45:27 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical4\numberMatch.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.23 06:45:27 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical4\numberMatch.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.23 06:45:27 WARN  Could not find semantic tokens for: file:///C:/Users/LENOVO/UCSC/2nd%20Year/semester%201/2204%20Functional%20Programming/Practicals/gitRepo/Scala22000291/practical4/numberMatch.scala
+2024.07.23 06:45:28 INFO  running doctor check
+2024.07.23 06:45:28 INFO  java targets: Scala22000291_f4dd477a3a, Scala22000291_f4dd477a3a-test
+2024.07.23 06:45:28 INFO  compiling scala22000291_f4dd477a3a (18 scala sources)
+2024.07.23 06:45:28 INFO  time: compiled Scala22000291_f4dd477a3a in 0.54s
+2024.07.23 06:45:28 INFO  compiling scala22000291_f4dd477a3a (18 scala sources)
+2024.07.23 06:45:29 INFO  time: compiled Scala22000291_f4dd477a3a in 0.56s
+2024.07.23 06:45:30 INFO  time: indexed workspace in 2.8s
+2024.07.23 06:45:31 INFO  compiling scala22000291_f4dd477a3a (18 scala sources)
+2024.07.23 06:45:31 INFO  time: compiled Scala22000291_f4dd477a3a in 0.33s
+2024.07.23 06:45:31 INFO  compiling scala22000291_f4dd477a3a (18 scala sources)
+2024.07.23 06:45:32 INFO  time: compiled Scala22000291_f4dd477a3a in 0.32s
+2024.07.23 06:46:14 INFO  compiling scala22000291_f4dd477a3a (18 scala sources)
+2024.07.23 06:46:14 INFO  time: compiled Scala22000291_f4dd477a3a in 0.48s
+2024.07.23 06:46:16 INFO  compiling scala22000291_f4dd477a3a (18 scala sources)
+2024.07.23 06:46:16 INFO  time: compiled Scala22000291_f4dd477a3a in 0.39s
+2024.07.23 06:46:29 INFO  compiling scala22000291_f4dd477a3a (18 scala sources)
+2024.07.23 06:46:29 INFO  time: compiled Scala22000291_f4dd477a3a in 0.34s
+Jul 23, 2024 6:47:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3857
+Jul 23, 2024 6:47:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3903
+Jul 23, 2024 6:47:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3944
+Jul 23, 2024 6:47:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4000
+2024.07.23 06:47:35 INFO  compiling scala22000291_f4dd477a3a (18 scala sources)
+2024.07.23 06:47:35 INFO  time: compiled Scala22000291_f4dd477a3a in 0.44s
+2024.07.23 06:47:39 INFO  compiling scala22000291_f4dd477a3a (18 scala sources)
+2024.07.23 06:47:39 INFO  time: compiled Scala22000291_f4dd477a3a in 0.37s
+2024.07.23 06:48:18 INFO  compiling scala22000291_f4dd477a3a (18 scala sources)
+2024.07.23 06:48:18 INFO  time: compiled Scala22000291_f4dd477a3a in 0.38s
+2024.07.23 06:48:26 INFO  compiling scala22000291_f4dd477a3a (18 scala sources)
+2024.07.23 06:48:26 INFO  time: compiled Scala22000291_f4dd477a3a in 0.32s
+2024.07.23 06:48:39 INFO  compiling scala22000291_f4dd477a3a (18 scala sources)
+2024.07.23 06:48:39 INFO  time: compiled Scala22000291_f4dd477a3a in 0.3s
+2024.07.23 06:48:42 INFO  compiling scala22000291_f4dd477a3a (18 scala sources)
+2024.07.23 06:48:42 INFO  time: compiled Scala22000291_f4dd477a3a in 0.33s
+2024.07.23 06:48:48 INFO  compiling scala22000291_f4dd477a3a (18 scala sources)
+2024.07.23 06:48:48 INFO  time: compiled Scala22000291_f4dd477a3a in 0.32s
+2024.07.23 06:48:56 INFO  compiling scala22000291_f4dd477a3a (18 scala sources)
+2024.07.23 06:48:56 INFO  time: compiled Scala22000291_f4dd477a3a in 0.36s
+2024.07.23 06:48:59 INFO  compiling scala22000291_f4dd477a3a (18 scala sources)
+2024.07.23 06:48:59 INFO  time: compiled Scala22000291_f4dd477a3a in 0.38s
+2024.07.23 06:49:13 INFO  compiling scala22000291_f4dd477a3a (18 scala sources)
+2024.07.23 06:49:13 INFO  time: compiled Scala22000291_f4dd477a3a in 0.4s
+Jul 23, 2024 6:49:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4211
+Jul 23, 2024 6:49:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4232
+2024.07.23 06:49:28 INFO  compiling scala22000291_f4dd477a3a (18 scala sources)
+2024.07.23 06:49:28 INFO  time: compiled Scala22000291_f4dd477a3a in 0.33s
+2024.07.23 06:56:58 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical4\nameFormatter.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.23 06:56:58 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical4\nameFormatter.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.23 06:56:58 WARN  Could not find semantic tokens for: file:///C:/Users/LENOVO/UCSC/2nd%20Year/semester%201/2204%20Functional%20Programming/Practicals/gitRepo/Scala22000291/practical4/nameFormatter.scala
+2024.07.23 06:56:58 INFO  running doctor check
+2024.07.23 06:56:58 INFO  java targets: Scala22000291_f4dd477a3a, Scala22000291_f4dd477a3a-test
+2024.07.23 06:56:58 INFO  compiling scala22000291_f4dd477a3a (19 scala sources)
+2024.07.23 06:56:58 INFO  time: compiled Scala22000291_f4dd477a3a in 0.45s
+2024.07.23 06:56:58 INFO  compiling scala22000291_f4dd477a3a (19 scala sources)
+2024.07.23 06:56:59 INFO  time: compiled Scala22000291_f4dd477a3a in 0.41s
+2024.07.23 06:57:01 INFO  time: indexed workspace in 2.6s
+2024.07.23 06:57:01 INFO  compiling scala22000291_f4dd477a3a (19 scala sources)
+2024.07.23 06:57:01 INFO  time: compiled Scala22000291_f4dd477a3a in 0.3s
+2024.07.23 06:57:02 WARN  Could not find semantic tokens for: file:///C:/Users/LENOVO/UCSC/2nd%20Year/semester%201/2204%20Functional%20Programming/Practicals/gitRepo/Scala22000291/practical4/nameFormatter.scala
+2024.07.23 06:57:05 INFO  compiling scala22000291_f4dd477a3a (19 scala sources)
+2024.07.23 06:57:05 INFO  time: compiled Scala22000291_f4dd477a3a in 0.36s
