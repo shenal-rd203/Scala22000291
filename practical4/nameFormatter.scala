@@ -9,6 +9,6 @@ object NameFormatter {
     println(formatNames("Benny")(toUpper))
     println(formatNames("Niroshan")(str => str.head.toUpper + str.tail.toLowerCase))
     println(formatNames("Saman")(toLower))
-    println(formatNames("Kumara")(str => str.init.toLowerCase + str.last.toUpper))
+    println(formatNames("Kumara")(str => str.init + str.last.toUpper))
   }
 }

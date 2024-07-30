@@ -1,0 +1,27 @@
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@715329d5]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@5c26a091]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@715329d5]
+2024.07.29 15:51:53 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.29 15:51:55 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical6\first.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.29 15:51:59 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical6\first.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.29 15:52:07 INFO  Running List(C:\Users\LENOVO\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical6)
+2024.07.29 15:52:08 INFO  Attempting to connect to the build server...
+2024.07.29 15:52:08 INFO  Running BSP server List(C:\Users\LENOVO\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical6\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical6\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical6\.scala-build\ide-envs.json, C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical6)
+2024.07.29 15:52:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical6\.metals\bsp.trace.json or C:\Users\LENOVO\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.29 15:52:14 INFO  BSP server: Starting compilation server
+2024.07.29 15:52:27 INFO  time: Connected to build server in 18s
+2024.07.29 15:52:27 INFO  Connected to Build server: scala-cli v1.4.0
+2024.07.29 15:52:29 INFO  compiling practical6_f4dd477a3a (1 scala source)
+2024.07.29 15:52:38 INFO  time: Imported build in 10s
+2024.07.29 15:52:39 INFO  running doctor check
+2024.07.29 15:52:39 INFO  java targets: practical6_f4dd477a3a, practical6_f4dd477a3a-test
+2024.07.29 15:52:50 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.29 15:52:53 INFO  time: indexed workspace in 13s
+2024.07.29 15:58:34 INFO  compiling practical6_f4dd477a3a (1 scala source)
+2024.07.29 15:58:36 INFO  time: compiled practical6_f4dd477a3a in 1.25s
+2024.07.29 16:05:44 INFO  Shutting down server
+2024.07.29 16:05:44 INFO  shutting down Metals
+2024.07.29 16:05:44 INFO  Shut down connection with build server.
+2024.07.29 16:05:44 INFO  Exiting server
