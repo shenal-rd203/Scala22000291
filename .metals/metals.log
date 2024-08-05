@@ -6188,3 +6188,526 @@ WARNING: Unmatched cancel notification for request id 1020
 2024.07.30 06:15:41 INFO  time: compiled Scala22000291_f4dd477a3a in 0.82s
 2024.07.30 06:15:53 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
 2024.07.30 06:15:53 INFO  time: compiled Scala22000291_f4dd477a3a in 0.8s
+2024.07.30 08:47:18 INFO  Started: Metals version 1.3.4 in folders 'C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291' for client Visual Studio Code 1.91.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@6532c699]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@6a9eb96e]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@6532c699]
+2024.07.30 08:47:23 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.30 08:47:25 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical6\sec.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.30 08:47:25 INFO  Attempting to connect to the build server...
+2024.07.30 08:47:25 INFO  Running BSP server List(C:\Users\LENOVO\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\.scala-build\ide-envs.json, C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291)
+2024.07.30 08:47:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\.metals\bsp.trace.json or C:\Users\LENOVO\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.30 08:47:31 INFO  BSP server: Starting compilation server
+2024.07.30 08:47:37 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical3\evenAdd.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.30 08:47:41 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical3\evenAdd.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.30 08:47:43 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical6\sec.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.30 08:47:46 INFO  no build target found for C:\Users\LENOVO\UCSC\2nd Year\semester 1\2204 Functional Programming\Practicals\gitRepo\Scala22000291\practical6\first.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.30 08:47:48 INFO  time: Connected to build server in 22s
+2024.07.30 08:47:48 INFO  Connected to Build server: scala-cli v1.4.0
+2024.07.30 08:47:48 INFO  time: Imported build in 0.25s
+2024.07.30 08:47:48 INFO  running doctor check
+2024.07.30 08:47:48 INFO  java targets: Scala22000291_f4dd477a3a, Scala22000291_f4dd477a3a-test
+2024.07.30 08:47:50 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 08:47:58 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.30 08:48:00 INFO  time: indexed workspace in 11s
+2024.07.30 08:48:04 INFO  time: compiled Scala22000291_f4dd477a3a in 13s
+2024.07.30 08:48:04 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 08:48:07 INFO  time: compiled Scala22000291_f4dd477a3a in 3.31s
+2024.07.30 08:48:07 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 08:48:10 INFO  time: compiled Scala22000291_f4dd477a3a in 2.19s
+2024.07.30 08:48:10 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 08:48:13 INFO  time: compiled Scala22000291_f4dd477a3a in 2.13s
+2024.07.30 08:48:13 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 08:48:15 INFO  time: compiled Scala22000291_f4dd477a3a in 1.62s
+2024.07.30 08:57:28 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 08:57:30 INFO  time: compiled Scala22000291_f4dd477a3a in 1.69s
+2024.07.30 08:57:45 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 08:57:47 INFO  time: compiled Scala22000291_f4dd477a3a in 1.55s
+Jul 30, 2024 9:14:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 436
+2024.07.30 09:14:29 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 09:14:31 INFO  time: compiled Scala22000291_f4dd477a3a in 1.15s
+2024.07.30 09:14:38 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 09:14:39 INFO  time: compiled Scala22000291_f4dd477a3a in 1.18s
+Jul 30, 2024 9:27:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://05e4dc50-a7db-40b1-a274-a5f70adb072b/response_29/2#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5CUsers%5C%5CLENOVO%5C%5CUCSC%5C%5C2nd%20Year%5C%5Csemester%201%5C%5C2204%20Functional%20Programming%5C%5CPracticals%5C%5CgitRepo%5C%5CScala22000291%5C%5Cpractical6%5C%5Csec.scala%22%2C%22_sep%22%3A1%2C%22external%22%3A%22file%3A%2F%2F%2Fc%253A%2FUsers%2FLENOVO%2FUCSC%2F2nd%2520Year%2Fsemester%25201%2F2204%2520Functional%2520Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical6%2Fsec.scala%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2FLENOVO%2FUCSC%2F2nd%20Year%2Fsemester%201%2F2204%20Functional%20Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical6%2Fsec.scala%22%2C%22scheme%22%3A%22file%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A56%2C%22startColumn%22%3A9%2C%22endLineNumber%22%3A57%2C%22endColumn%22%3A7%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:188)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:756)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:753)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:696)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Jul 30, 2024 9:27:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://05e4dc50-a7db-40b1-a274-a5f70adb072b/response_22/1#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5CUsers%5C%5CLENOVO%5C%5CUCSC%5C%5C2nd%20Year%5C%5Csemester%201%5C%5C2204%20Functional%20Programming%5C%5CPracticals%5C%5CgitRepo%5C%5CScala22000291%5C%5Cpractical6%5C%5Cfirst.scala%22%2C%22_sep%22%3A1%2C%22external%22%3A%22file%3A%2F%2F%2Fc%253A%2FUsers%2FLENOVO%2FUCSC%2F2nd%2520Year%2Fsemester%25201%2F2204%2520Functional%2520Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical6%2Ffirst.scala%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2FLENOVO%2FUCSC%2F2nd%20Year%2Fsemester%201%2F2204%20Functional%20Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical6%2Ffirst.scala%22%2C%22scheme%22%3A%22file%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A29%2C%22startColumn%22%3A5%2C%22endLineNumber%22%3A39%2C%22endColumn%22%3A6%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:188)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:756)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:753)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:696)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Jul 30, 2024 9:27:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://05e4dc50-a7db-40b1-a274-a5f70adb072b/response_22/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5CUsers%5C%5CLENOVO%5C%5CUCSC%5C%5C2nd%20Year%5C%5Csemester%201%5C%5C2204%20Functional%20Programming%5C%5CPracticals%5C%5CgitRepo%5C%5CScala22000291%5C%5Cpractical6%5C%5Cfirst.scala%22%2C%22_sep%22%3A1%2C%22external%22%3A%22file%3A%2F%2F%2Fc%253A%2FUsers%2FLENOVO%2FUCSC%2F2nd%2520Year%2Fsemester%25201%2F2204%2520Functional%2520Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical6%2Ffirst.scala%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2FLENOVO%2FUCSC%2F2nd%20Year%2Fsemester%201%2F2204%20Functional%20Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical6%2Ffirst.scala%22%2C%22scheme%22%3A%22file%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A29%2C%22startColumn%22%3A5%2C%22endLineNumber%22%3A39%2C%22endColumn%22%3A6%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:188)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:756)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:753)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:696)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Jul 30, 2024 9:27:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://05e4dc50-a7db-40b1-a274-a5f70adb072b/response_27/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5CUsers%5C%5CLENOVO%5C%5CUCSC%5C%5C2nd%20Year%5C%5Csemester%201%5C%5C2204%20Functional%20Programming%5C%5CPracticals%5C%5CgitRepo%5C%5CScala22000291%5C%5Cpractical6%5C%5Csec.scala%22%2C%22_sep%22%3A1%2C%22external%22%3A%22file%3A%2F%2F%2Fc%253A%2FUsers%2FLENOVO%2FUCSC%2F2nd%2520Year%2Fsemester%25201%2F2204%2520Functional%2520Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical6%2Fsec.scala%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2FLENOVO%2FUCSC%2F2nd%20Year%2Fsemester%201%2F2204%20Functional%20Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical6%2Fsec.scala%22%2C%22scheme%22%3A%22file%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A5%2C%22startColumn%22%3A7%2C%22endLineNumber%22%3A5%2C%22endColumn%22%3A20%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:188)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:756)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:753)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:696)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Jul 30, 2024 9:27:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://05e4dc50-a7db-40b1-a274-a5f70adb072b/response_29/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5CUsers%5C%5CLENOVO%5C%5CUCSC%5C%5C2nd%20Year%5C%5Csemester%201%5C%5C2204%20Functional%20Programming%5C%5CPracticals%5C%5CgitRepo%5C%5CScala22000291%5C%5Cpractical6%5C%5Csec.scala%22%2C%22_sep%22%3A1%2C%22external%22%3A%22file%3A%2F%2F%2Fc%253A%2FUsers%2FLENOVO%2FUCSC%2F2nd%2520Year%2Fsemester%25201%2F2204%2520Functional%2520Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical6%2Fsec.scala%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2FLENOVO%2FUCSC%2F2nd%20Year%2Fsemester%201%2F2204%20Functional%20Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical6%2Fsec.scala%22%2C%22scheme%22%3A%22file%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A56%2C%22startColumn%22%3A9%2C%22endLineNumber%22%3A57%2C%22endColumn%22%3A7%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:188)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:756)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:753)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:696)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Jul 30, 2024 9:27:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://05e4dc50-a7db-40b1-a274-a5f70adb072b/response_29/1#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5CUsers%5C%5CLENOVO%5C%5CUCSC%5C%5C2nd%20Year%5C%5Csemester%201%5C%5C2204%20Functional%20Programming%5C%5CPracticals%5C%5CgitRepo%5C%5CScala22000291%5C%5Cpractical6%5C%5Csec.scala%22%2C%22_sep%22%3A1%2C%22external%22%3A%22file%3A%2F%2F%2Fc%253A%2FUsers%2FLENOVO%2FUCSC%2F2nd%2520Year%2Fsemester%25201%2F2204%2520Functional%2520Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical6%2Fsec.scala%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2FLENOVO%2FUCSC%2F2nd%20Year%2Fsemester%201%2F2204%20Functional%20Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical6%2Fsec.scala%22%2C%22scheme%22%3A%22file%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A56%2C%22startColumn%22%3A9%2C%22endLineNumber%22%3A57%2C%22endColumn%22%3A7%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:188)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:756)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:753)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:696)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Jul 30, 2024 9:27:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://05e4dc50-a7db-40b1-a274-a5f70adb072b/response_29/2#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5CUsers%5C%5CLENOVO%5C%5CUCSC%5C%5C2nd%20Year%5C%5Csemester%201%5C%5C2204%20Functional%20Programming%5C%5CPracticals%5C%5CgitRepo%5C%5CScala22000291%5C%5Cpractical6%5C%5Csec.scala%22%2C%22_sep%22%3A1%2C%22external%22%3A%22file%3A%2F%2F%2Fc%253A%2FUsers%2FLENOVO%2FUCSC%2F2nd%2520Year%2Fsemester%25201%2F2204%2520Functional%2520Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical6%2Fsec.scala%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2FLENOVO%2FUCSC%2F2nd%20Year%2Fsemester%201%2F2204%20Functional%20Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical6%2Fsec.scala%22%2C%22scheme%22%3A%22file%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A56%2C%22startColumn%22%3A9%2C%22endLineNumber%22%3A57%2C%22endColumn%22%3A7%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:188)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:756)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:753)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:696)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Jul 30, 2024 9:27:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://05e4dc50-a7db-40b1-a274-a5f70adb072b/response_29/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5CUsers%5C%5CLENOVO%5C%5CUCSC%5C%5C2nd%20Year%5C%5Csemester%201%5C%5C2204%20Functional%20Programming%5C%5CPracticals%5C%5CgitRepo%5C%5CScala22000291%5C%5Cpractical6%5C%5Csec.scala%22%2C%22_sep%22%3A1%2C%22external%22%3A%22file%3A%2F%2F%2Fc%253A%2FUsers%2FLENOVO%2FUCSC%2F2nd%2520Year%2Fsemester%25201%2F2204%2520Functional%2520Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical6%2Fsec.scala%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2FLENOVO%2FUCSC%2F2nd%20Year%2Fsemester%201%2F2204%20Functional%20Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical6%2Fsec.scala%22%2C%22scheme%22%3A%22file%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A56%2C%22startColumn%22%3A9%2C%22endLineNumber%22%3A57%2C%22endColumn%22%3A7%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:188)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:756)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:753)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:696)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Jul 30, 2024 9:27:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://05e4dc50-a7db-40b1-a274-a5f70adb072b/response_29/1#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5CUsers%5C%5CLENOVO%5C%5CUCSC%5C%5C2nd%20Year%5C%5Csemester%201%5C%5C2204%20Functional%20Programming%5C%5CPracticals%5C%5CgitRepo%5C%5CScala22000291%5C%5Cpractical6%5C%5Csec.scala%22%2C%22_sep%22%3A1%2C%22external%22%3A%22file%3A%2F%2F%2Fc%253A%2FUsers%2FLENOVO%2FUCSC%2F2nd%2520Year%2Fsemester%25201%2F2204%2520Functional%2520Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical6%2Fsec.scala%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2FLENOVO%2FUCSC%2F2nd%20Year%2Fsemester%201%2F2204%20Functional%20Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical6%2Fsec.scala%22%2C%22scheme%22%3A%22file%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A56%2C%22startColumn%22%3A9%2C%22endLineNumber%22%3A57%2C%22endColumn%22%3A7%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:188)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:756)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:753)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:696)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Jul 30, 2024 9:31:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://05e4dc50-a7db-40b1-a274-a5f70adb072b/response_30/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5CUsers%5C%5CLENOVO%5C%5CUCSC%5C%5C2nd%20Year%5C%5Csemester%201%5C%5C2204%20Functional%20Programming%5C%5CPracticals%5C%5CgitRepo%5C%5CScala22000291%5C%5Cpractical6%5C%5Csec.scala%22%2C%22_sep%22%3A1%2C%22external%22%3A%22file%3A%2F%2F%2Fc%253A%2FUsers%2FLENOVO%2FUCSC%2F2nd%2520Year%2Fsemester%25201%2F2204%2520Functional%2520Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical6%2Fsec.scala%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2FLENOVO%2FUCSC%2F2nd%20Year%2Fsemester%201%2F2204%20Functional%20Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical6%2Fsec.scala%22%2C%22scheme%22%3A%22file%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A38%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A63%2C%22endColumn%22%3A42%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:188)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:756)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:753)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:696)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Jul 30, 2024 9:44:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 861
+2024.07.30 09:48:20 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 09:48:21 INFO  time: compiled Scala22000291_f4dd477a3a in 1.39s
+2024.07.30 09:48:25 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 09:48:26 INFO  time: compiled Scala22000291_f4dd477a3a in 1.15s
+2024.07.30 09:55:36 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 09:55:36 INFO  time: compiled Scala22000291_f4dd477a3a in 0.99s
+2024.07.30 10:01:07 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:01:08 INFO  time: compiled Scala22000291_f4dd477a3a in 1.11s
+Jul 30, 2024 10:03:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://05e4dc50-a7db-40b1-a274-a5f70adb072b/response_42/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5CUsers%5C%5CLENOVO%5C%5CUCSC%5C%5C2nd%20Year%5C%5Csemester%201%5C%5C2204%20Functional%20Programming%5C%5CPracticals%5C%5CgitRepo%5C%5CScala22000291%5C%5Cpractical6%5C%5Cfirst.scala%22%2C%22_sep%22%3A1%2C%22external%22%3A%22file%3A%2F%2F%2Fc%253A%2FUsers%2FLENOVO%2FUCSC%2F2nd%2520Year%2Fsemester%25201%2F2204%2520Functional%2520Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical6%2Ffirst.scala%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2FLENOVO%2FUCSC%2F2nd%20Year%2Fsemester%201%2F2204%20Functional%20Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical6%2Ffirst.scala%22%2C%22scheme%22%3A%22file%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A37%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A58%2C%22endColumn%22%3A2%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:188)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:756)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:753)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:696)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024.07.30 10:11:49 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:11:50 INFO  time: compiled Scala22000291_f4dd477a3a in 1.02s
+2024.07.30 10:13:05 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:13:06 INFO  time: compiled Scala22000291_f4dd477a3a in 1.03s
+2024.07.30 10:13:13 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:13:14 INFO  time: compiled Scala22000291_f4dd477a3a in 1.06s
+2024.07.30 10:13:17 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:13:17 INFO  time: compiled Scala22000291_f4dd477a3a in 0.93s
+2024.07.30 10:20:04 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:20:05 INFO  time: compiled Scala22000291_f4dd477a3a in 1.22s
+2024.07.30 10:20:10 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:20:10 INFO  time: compiled Scala22000291_f4dd477a3a in 1s
+2024.07.30 10:20:16 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:20:16 INFO  time: compiled Scala22000291_f4dd477a3a in 0.93s
+2024.07.30 10:20:18 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:20:18 INFO  time: compiled Scala22000291_f4dd477a3a in 0.92s
+2024.07.30 10:20:28 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:20:28 INFO  time: compiled Scala22000291_f4dd477a3a in 0.88s
+Jul 30, 2024 10:21:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1560
+2024.07.30 10:21:27 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:21:27 INFO  time: compiled Scala22000291_f4dd477a3a in 0.97s
+2024.07.30 10:22:06 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:22:07 INFO  time: compiled Scala22000291_f4dd477a3a in 1.17s
+2024.07.30 10:22:12 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:22:12 INFO  time: compiled Scala22000291_f4dd477a3a in 0.93s
+Jul 30, 2024 10:22:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1713
+2024.07.30 10:22:19 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:22:19 INFO  time: compiled Scala22000291_f4dd477a3a in 0.87s
+2024.07.30 10:23:39 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:23:39 INFO  time: compiled Scala22000291_f4dd477a3a in 0.91s
+2024.07.30 10:24:22 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:24:22 INFO  time: compiled Scala22000291_f4dd477a3a in 0.95s
+2024.07.30 10:24:52 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:24:52 INFO  time: compiled Scala22000291_f4dd477a3a in 0.8s
+2024.07.30 10:24:58 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:24:58 INFO  time: compiled Scala22000291_f4dd477a3a in 0.93s
+2024.07.30 10:25:05 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:25:05 INFO  time: compiled Scala22000291_f4dd477a3a in 0.9s
+2024.07.30 10:25:09 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:25:09 INFO  time: compiled Scala22000291_f4dd477a3a in 0.78s
+Jul 30, 2024 10:30:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://05e4dc50-a7db-40b1-a274-a5f70adb072b/response_44/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5CUsers%5C%5CLENOVO%5C%5CUCSC%5C%5C2nd%20Year%5C%5Csemester%201%5C%5C2204%20Functional%20Programming%5C%5CPracticals%5C%5CgitRepo%5C%5CScala22000291%5C%5Cpractical6%5C%5Csec.scala%22%2C%22_sep%22%3A1%2C%22external%22%3A%22file%3A%2F%2F%2Fc%253A%2FUsers%2FLENOVO%2FUCSC%2F2nd%2520Year%2Fsemester%25201%2F2204%2520Functional%2520Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical6%2Fsec.scala%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2FLENOVO%2FUCSC%2F2nd%20Year%2Fsemester%201%2F2204%20Functional%20Programming%2FPracticals%2FgitRepo%2FScala22000291%2Fpractical6%2Fsec.scala%22%2C%22scheme%22%3A%22file%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A1%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A70%2C%22endColumn%22%3A3%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:188)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:756)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:753)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:696)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024.07.30 10:31:41 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:31:41 INFO  time: compiled Scala22000291_f4dd477a3a in 0.87s
+2024.07.30 10:31:59 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:31:59 INFO  time: compiled Scala22000291_f4dd477a3a in 0.78s
+2024.07.30 10:32:01 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:32:02 INFO  time: compiled Scala22000291_f4dd477a3a in 1.07s
+2024.07.30 10:32:06 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:32:07 INFO  time: compiled Scala22000291_f4dd477a3a in 1.01s
+2024.07.30 10:32:09 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:32:09 INFO  time: compiled Scala22000291_f4dd477a3a in 0.78s
+Jul 30, 2024 10:32:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2176
+2024.07.30 10:32:17 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:32:17 INFO  time: compiled Scala22000291_f4dd477a3a in 0.81s
+2024.07.30 10:32:23 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+Jul 30, 2024 10:32:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2215
+2024.07.30 10:32:24 INFO  time: compiled Scala22000291_f4dd477a3a in 1s
+2024.07.30 10:32:25 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:32:25 INFO  time: compiled Scala22000291_f4dd477a3a in 0.85s
+2024.07.30 10:32:40 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:32:40 INFO  time: compiled Scala22000291_f4dd477a3a in 0.82s
+2024.07.30 10:32:47 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:32:47 INFO  time: compiled Scala22000291_f4dd477a3a in 0.87s
+2024.07.30 10:32:50 INFO  compiling scala22000291_f4dd477a3a (22 scala sources)
+2024.07.30 10:32:50 INFO  time: compiled Scala22000291_f4dd477a3a in 0.73s

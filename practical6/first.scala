@@ -52,6 +52,7 @@ object InventorySystem {
     println("Is Inventory Empty: " + isInventoryEmpty(inventory1))
     val mergedInventory = mergeInventories(inventory1, inventory2)
     println("Merged Inventory: " + mergedInventory)
+    println("Product Names: " + getProductNames(inventory1))
     checkProductExists(inventory1, 102)
   }
 }

@@ -5,8 +5,6 @@ object StudentRecords {
   def validateInput(name: String, marks: Int, totalMarks: Int): (Boolean, Option[String]) = {
     if (name.isEmpty) {
       (false, Some("Name cannot be empty"))
-    } else if (marks < 0 || totalMarks < 0) {
-      (false, Some("Marks and total marks must be positive integers"))
     } else if (marks > totalMarks) {
       (false, Some("Marks cannot exceed total possible marks"))
     } else {
@@ -16,7 +14,12 @@ object StudentRecords {
 
   def getStudentInfo(): (String, Int, Int, Double, Char) = {
     val name = readLine("Enter student's name: ")
-    val marks = readLine("Enter marks obtained: ").toInt
+    var marks = readLine("Enter marks obtained: ").toInt
+    if (marks < -10) {
+      throw new IllegalArgumentException("Marks cannot be less than -10")
+    }else if(marks<0){
+      marks=0
+    }
     val totalMarks = readLine("Enter total possible marks: ").toInt
 
     val (isValid, errorMessage) = validateInput(name, marks, totalMarks)
@@ -64,4 +67,4 @@ object StudentRecords {
     val studentRecord = getStudentInfoWithRetry()
     printStudentRecord(studentRecord)
   }
-}
+} 
