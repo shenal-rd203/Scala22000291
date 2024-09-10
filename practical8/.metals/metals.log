@@ -125,3 +125,45 @@ INFO: Unsupported notification method: $/setTrace
 2024.08.13 09:10:46 INFO  time: compiled practical8_f4dd477a3a in 0.62s
 2024.08.13 09:10:53 INFO  compiling practical8_f4dd477a3a (1 scala source)
 2024.08.13 09:10:53 INFO  time: compiled practical8_f4dd477a3a in 0.76s
+2024.08.13 09:18:01 INFO  compiling practical8_f4dd477a3a (1 scala source)
+2024.08.13 09:18:01 INFO  time: compiled practical8_f4dd477a3a in 0.78s
+2024.08.13 09:18:39 INFO  compiling practical8_f4dd477a3a (1 scala source)
+2024.08.13 09:18:39 INFO  time: compiled practical8_f4dd477a3a in 0.74s
+2024.08.13 09:19:08 INFO  compiling practical8_f4dd477a3a (1 scala source)
+2024.08.13 09:19:08 INFO  time: compiled practical8_f4dd477a3a in 0.67s
+2024.08.13 09:19:31 INFO  compiling practical8_f4dd477a3a (1 scala source)
+2024.08.13 09:19:31 INFO  time: compiled practical8_f4dd477a3a in 0.36s
+2024.08.13 09:19:35 INFO  compiling practical8_f4dd477a3a (1 scala source)
+2024.08.13 09:19:37 INFO  time: compiled practical8_f4dd477a3a in 1.09s
+2024.08.13 09:19:41 INFO  compiling practical8_f4dd477a3a (1 scala source)
+2024.08.13 09:19:41 INFO  time: compiled practical8_f4dd477a3a in 0.96s
+2024.08.13 09:19:44 INFO  compiling practical8_f4dd477a3a (1 scala source)
+2024.08.13 09:19:44 INFO  time: compiled practical8_f4dd477a3a in 0.8s
+2024.08.13 09:19:48 INFO  compiling practical8_f4dd477a3a (1 scala source)
+2024.08.13 09:19:48 INFO  time: compiled practical8_f4dd477a3a in 0.81s
+2024.08.13 09:20:01 INFO  compiling practical8_f4dd477a3a (1 scala source)
+2024.08.13 09:20:01 INFO  time: compiled practical8_f4dd477a3a in 0.76s
+Aug 13, 2024 9:20:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 437
+Aug 13, 2024 9:20:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 481
+2024.08.13 09:20:28 INFO  compiling practical8_f4dd477a3a (1 scala source)
+2024.08.13 09:20:28 INFO  time: compiled practical8_f4dd477a3a in 0.58s
+2024.08.13 09:20:33 INFO  compiling practical8_f4dd477a3a (1 scala source)
+2024.08.13 09:20:33 INFO  time: compiled practical8_f4dd477a3a in 0.73s
+2024.08.13 09:20:53 INFO  compiling practical8_f4dd477a3a (1 scala source)
+2024.08.13 09:20:53 INFO  time: compiled practical8_f4dd477a3a in 0.64s
+2024.08.13 09:21:14 INFO  compiling practical8_f4dd477a3a (1 scala source)
+2024.08.13 09:21:14 INFO  time: compiled practical8_f4dd477a3a in 0.75s
+2024.08.13 09:21:35 INFO  compiling practical8_f4dd477a3a (1 scala source)
+2024.08.13 09:21:35 INFO  time: compiled practical8_f4dd477a3a in 0.54s
+Aug 13, 2024 9:41:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 643
+Aug 13, 2024 9:42:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 656
+Aug 13, 2024 9:42:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 657
+Aug 13, 2024 9:42:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 683
+Aug 13, 2024 10:11:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 812
